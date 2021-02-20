@@ -4,6 +4,14 @@ db:
   host: "127.0.0.1"
   port: 1200
 my: 
-  greeting: "Hello World from config server"
+  greeting: Hello World from config server
   list: 
-    values: "One, Two, Three, Four"
+    values: One, Two, Three, Four
+
+app: 
+  name: My app
+  description: Wellcome to ${app.name}
+
+managment.endpoints.web.exposure.include: "*"
+
+spring.cloud.config.uri: http://localhost:8888
