@@ -3,6 +3,8 @@ my:
   list: 
     values: One, Two, Three
 
+lucky-word: irish
+
 app: 
   connection: connection-string-here-from-config-server
   host: 127.0.0.1
