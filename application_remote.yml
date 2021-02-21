@@ -3,7 +3,7 @@ my:
   list: 
     values: One, Two, Three
 
-lucky-word: irish
+lucky-word: "irish"
 
 app: 
   connection: connection-string-here-from-config-server
